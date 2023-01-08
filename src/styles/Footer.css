@@ -19,6 +19,13 @@
 
 .footer p {
   color: white;
+  margin-bottom: 2px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: white;
+
 }
 
 @media only screen and (max-width: 600px) {
