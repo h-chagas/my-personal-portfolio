@@ -1,10 +1,16 @@
-import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import {Link, useLocation} from 'react-router-dom'
 import '../styles/Navbar.css';
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
+
+  const location = useLocation();  //grab the location where the app is
+
+  useEffect(() => { // function that closes expandNavbar when location changes
+    setExpandNavbar(false)
+  }, [location])
 
   return (
     <div className='navbar' id={expandNavbar ? "open" : "close"}>
