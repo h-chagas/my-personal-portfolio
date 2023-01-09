@@ -1,0 +1,33 @@
+.section-repo {
+    margin-right: 40px;
+    padding: 0px;
+    font-family: "Arial", sans-serif;
+}
+
+.h1-repo {
+    margin-bottom: 25px;
+}
+
+.ul-repo {
+    margin: 0px;
+    list-style: none;
+}
+
+.li-repo {
+    background: #F0F0F0;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.p-repo {
+        font-size: 15px;
+        color: #000;
+        margin-top: 8px;
+}
+
+.a-repo {
+        color: inherit;
+        text-decoration: none;
+}
+
+    
