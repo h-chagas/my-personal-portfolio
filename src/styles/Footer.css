@@ -32,4 +32,9 @@
   .footer svg {
     font-size: 50px;
   }
+  .socialMedia svg {
+    
+    margin: 10px;
+    
+  }
 }
