@@ -1,3 +1,8 @@
+# BUILD PRODUCTION FOLDER
+# HOSTINGER
+
+- Check this video `https://youtu.be/x7mwVn2z3Sk?si=bl76nPNs0jNW2FZk&t=4547`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
